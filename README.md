@@ -58,15 +58,17 @@ CONVERTING SVG TO PNG
 WEBSITE SCREENSHOT
 ------------------
 
-1. Dependencies
+1. OSX
     1. Install Webkit2PNG `brew install webkit2png`
-2. Usage
-    1. `webkit2png https://gonyyi.com`
-    2. `webkit2png -W 1200 https://news.google.com`
+    2. `webkit2png https://gonyyi.com`
+    3. `webkit2png -W 1200 https://news.google.com`
         1. Set width to 1200px
-3. Note
-    1. For linux
-        1. Update NodeJS: `sudo apt-get upgrade nodejs`
-        1. Install webshot `npm install node-webshot`
-        2. Create `test.js` and copy below code:
+2. For linux
+    1. With display
+        1. `sudo apt-get install cutycapt`
+        2. `cutycapt --url=http://www.gonyyi.com --out=gyy.png --min-width=1920 --min-height=1080`
+    2. Without display
+        1. `sudo apt-get install cutycapt`
+        2. `sudo apt-get install xvfb` -- for X display
+        3. OR `xvfb-run --server-args="-screen 0, 1280x1200x24" cutycapt --url=https://gonyyi.com --out=gyy.png`
         
