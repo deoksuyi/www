@@ -52,7 +52,8 @@ CONVERTING SVG TO PNG
     1. `rsvg-convert -h 32 icon.svg > icon-32.png`
     2. this will create an image with 32px height; width to be determined 
         automatically.
-
+3. Note
+    1. For linux, install librsvg by `sudo apt-get install librsvg2-bin`
 
 WEBSITE SCREENSHOT
 ------------------
@@ -63,3 +64,9 @@ WEBSITE SCREENSHOT
     1. `webkit2png https://gonyyi.com`
     2. `webkit2png -W 1200 https://news.google.com`
         1. Set width to 1200px
+3. Note
+    1. For linux
+        1. Update NodeJS: `sudo apt-get upgrade nodejs`
+        1. Install webshot `npm install node-webshot`
+        2. Create `test.js` and copy below code:
+        
