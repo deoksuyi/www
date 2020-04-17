@@ -43,5 +43,5 @@ rsvg-convert -h 70 ./sx/w.svg > ./sx/w.png
 rsvg-convert -h 70 ./sx/gd.svg > ./sx/gd.png
 
 # FAVICON
-DSYIM_SIZE="200px" DSYIM_BG_COLOR="#222" DSYIM_COLOR="#fff" ./update_gen.sh dsyim.svg ./favicon.svg
+DSYIM_SIZE="200px" DSYIM_BG_COLOR="#333" DSYIM_COLOR="#fff" ./update_gen.sh dsyim.svg ./favicon.svg
 rsvg-convert -h 200 ./favicon.svg > ./favicon.png
