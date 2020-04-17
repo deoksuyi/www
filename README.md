@@ -17,29 +17,29 @@ For each version, save at https://web.archive.org/save/deoksuyi.com
 IMAGE URL CONVENTION
 --------------------
 
-- `deoksuyi.com/dsyim.svg`
-- `deoksuyi.com/dsyim`
-    - `/r` - raw
-        - `/black.svg`
-        - `/white.svg`
-        - `/gray.svg`
-        - ...
+- Size
+    - `dsyim.svg` -- small, #777, base image
+    - `l`   -- large   500px
+    - `m`   -- medium  260px
+    - `s`   -- small   100px
+    - `xs`  -- xsmall   50px
+    
+- Inside each sized one
     - `/s` - small
-        - `/b.png` -- black PNG
+        - `/b.png` -- black PNG; #000
         - `/b.svg` -- black SVG
-        - `/w.png` -- black PNG
-        - `/w.svg` -- black SVG
-    - `/m` - medium
-        ...
-    - `/l` - large
-        ...
+        - `/g.png` -- gray  PNG; #777
+        - `/g.svg` -- gray  SVG
+        - `/w.png` -- white PNG; #fff
+        - `/w.svg` -- white SVG
+    - `/m` ...
 
 USAGE
 -----
 
-`dsyimtool.sh ./dsyim.svg ./dsyim/`
-
-Using base image of `dsyim.svg`, create variants on `./dsyim/` directory.
+1. Read `dsyim.svg`
+2. Create SVG images with different size
+3. Convert each SVGs to PNGs.
 
 
 CONVERTING SVG TO PNG
