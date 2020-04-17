@@ -19,7 +19,7 @@ IMAGE URL CONVENTION
 
 - `deoksuyi.com/dsyim.svg`
 - `deoksuyi.com/dsyim`
-    - `/raw`
+    - `/r` - raw
         - `/black.svg`
         - `/white.svg`
         - `/gray.svg`
