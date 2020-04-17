@@ -44,4 +44,7 @@ rsvg-convert -h 70 ./sx/gd.svg > ./sx/gd.png
 
 # FAVICON
 DSYIM_SIZE="200px" DSYIM_BG_COLOR="#333" DSYIM_COLOR="#fff" ./update_gen.sh dsyim.svg ./favicon.svg
-rsvg-convert -h 200 ./favicon.svg > ./favicon.png
+rsvg-convert ./favicon.svg > ./favicon.png
+
+# FAVICON.OSX specific with imagemagick
+convert -background none -resize 96x96 ./favicon.png favicon.ico
