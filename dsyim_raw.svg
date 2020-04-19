@@ -1,0 +1,45 @@
+<svg id="DEOKSUYI" width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+	<g id="DSYIMAP" fill="transparent" stroke="#777" stroke-width="4">
+		<path id="M" d="
+			M 30,3
+			C 36,3 43,3 50,10
+			C 50,10 57,3 64,3
+			H 97 V 30
+			C 97,37 97,43 90,50
+			C 90,50 97,57 97,64
+			V 97 H 70
+			C 64,97 57,97 50,90
+			C 50,90 43,97 37,97
+			H 3 V 70
+			C 3,64 3,57 10,50
+			C 10,50 3,43 3,37
+			V 3
+			H 30
+			"/>
+		<circle id="S" cx="50" cy="50" r="30"/>
+		<path id="Y" d="
+			M30,50
+			H70
+			M43,50
+			V37
+			M57,50
+			V37
+			"/>
+		<path id="G" stroke-width="2" d="
+			M35,57
+			H43
+			M35,63
+			H43
+
+			M50,55
+			V65
+			M45,60
+			H55
+			
+			M59,56
+			L57,64
+			M63,56
+			L65,64
+			"/>
+	</g>
+</svg>
