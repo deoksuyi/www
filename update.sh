@@ -42,6 +42,9 @@ rsvg-convert -h 70 ./sx/g.svg > ./sx/g.png
 rsvg-convert -h 70 ./sx/w.svg > ./sx/w.png
 rsvg-convert -h 70 ./sx/gd.svg > ./sx/gd.png
 
+# GONYYI.COM
+DSYIM_SIZE="50px" DSYIM_COLOR="#dadada" ./update_gen.sh dsyim.svg ./gonyyi_dsyim.svg
+
 # FAVICON
 DSYIM_SIZE="200px" DSYIM_BG_COLOR="#333" DSYIM_COLOR="#fff" ./update_gen.sh dsyim.svg ./favicon.svg
 rsvg-convert ./favicon.svg > ./favicon.png
