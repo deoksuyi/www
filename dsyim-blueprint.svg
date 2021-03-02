@@ -1,0 +1,150 @@
+<svg id="DEOKSUYI" width="100%" height="100%" style='background-color:#3366ff;' viewBox="-50 -50 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg">
+	<g id="DSYIM" fill="transparent" stroke="white" stroke-width="1">
+		<path id="M" d="M30,3C36,3 43,3 50,10C50,10 57,3 64,3H97V30C97,37 97,43 90,50C90,50 97,57 97,64V97H70C64,97 57,97 50,90C50,90 43,97 37,97H3V70C3,64 3,57 10,50C10,50 3,43 3,37V3H30"/>
+		<circle id="S" cx="50" cy="50" r="30"/>
+		<path id="Y" d="M30,50H70M43,50V37M57,50V37"/>
+		<path id="G" stroke-width="1" d="M35,57H43M35,63H43M50,55V65M45,60H55M59,56L57,64M63,56L65,64"/>
+	</g>
+
+	<style>
+		.small { font: normal 5px sans-serif; fill:white;}
+		.blue   {stroke: white;}
+		.gray   {stroke: #e6ffff;}
+		.dotted {stroke-width:0.3; stroke-dasharray:1,1;}
+		.line 	{stroke-width:0.3;}
+	</style>
+
+	<g id="DSYIMDESC">
+		<g id="box">
+			<line x1="0" y1="0" x2="0" y2="100" 	class="gray dotted"/>
+			<line x1="0" y1="0" x2="100" y2="0" 	class="gray dotted"/>
+			<line x1="100" y1="0" x2="100" y2="100" class="gray dotted"/>
+			<line x1="0" y1="100" x2="100" y2="100" class="gray dotted"/>
+		</g>
+
+		<g id="topLine">
+			<text class="small" text-anchor="middle" transform="translate(50,-27) rotate(0)">100</text>
+			<line x1="0" y1="-25" x2="100" y2="-25" class="blue line"/>
+			<line x1="0" y1="0" x2="0" y2="-30" class="blue dotted"/>
+			<line x1="100" y1="0" x2="100" y2="-30" class="blue dotted"/>
+		</g>
+
+		<g id="btmLine">
+			<text class="small" text-anchor="middle" transform="translate(-27,50) rotate(270)">100</text>
+			<line x1="-25" y1="0" x2="-25" y2="100" class="blue line"/>
+			<line x1="0" y1="0" x2="-30" y2="0" class="blue dotted"/>
+			<line x1="0" y1="100" x2="-30" y2="100" class="blue dotted"/>
+		</g>
+
+		<g id="v-0-3-10-20-50">
+			<line x1="0" y1="135" x2="0" y2="100" class="blue dotted"/>
+			<line x1="100" y1="135" x2="100" y2="50" class="dotted blue"/>
+			<line x1="0" y1="133" x2="100" y2="133" class="blue line"/>
+			<text class="small" text-anchor="middle" transform="translate(50,138) rotate(0)">100</text>
+			
+			<line x1="3" y1="105" x2="10" y2="105" class="blue line"/>
+			<text class="small" text-anchor="middle" transform="translate(6.5,110) rotate(0)">7</text>
+
+			<line x1="10" y1="118" x2="10" y2="50" class="dotted blue"/>
+			<line x1="20" y1="118" x2="20" y2="50" class="dotted blue"/>
+			<line x1="10" y1="110" x2="20" y2="110" class="blue line"/>
+			<text class="small" text-anchor="middle" transform="translate(15,115) rotate(0)">10</text>
+
+			<line x1="20" y1="115" x2="30" y2="115" class="blue line"/>
+			<line x1="30" y1="122" x2="30" y2="50" class="dotted blue"/>
+			<text class="small" text-anchor="middle" transform="translate(25,120) rotate(0)">10</text>
+
+			<line x1="30" y1="120" x2="50" y2="120" class="blue line"/>
+			<text class="small" text-anchor="middle" transform="translate(40,125) rotate(0)">20</text>
+			
+			<line x1="50" y1="50" x2="50" y2="127" class="dotted blue"/>
+			<line x1="50" y1="105" x2="80" y2="105" class="blue line"/>
+			<text class="small" text-anchor="middle" transform="translate(65,110) rotate(0)">30</text>
+
+			<line x1="80" y1="112" x2="80" y2="50" class="dotted blue"/>
+			<line x1="80" y1="110" x2="97" y2="110" class="blue line"/>
+			<text class="small" text-anchor="middle" transform="translate(88,115) rotate(0)">17</text>
+
+			<line x1="50" y1="117" x2="97" y2="117" class="blue line"/>
+			<text class="small" text-anchor="middle" transform="translate(73.5,122) rotate(0)">47</text>
+			
+			<line x1="0" x2="10" y1="115" y2="115" class="blue line"/>
+			<text class="small" text-anchor="middle" transform="translate(5,120) rotate(0)">10</text>
+
+			<line x1="3"  y1="108" x2="3" y2="97" class="blue dotted"/>
+
+			<line x1="97" y1="120" x2="97" y2="50" class="dotted blue"/>
+
+			<line x1="50" y1="125" x2="100" y2="125" class="blue line"/>
+			<text class="small" text-anchor="middle" transform="translate(75,130) rotate(0)">50</text>
+			
+
+			
+		</g>
+
+		<g id="vu">
+			<line x1="20" y1="50" x2="20" y2="-10" class="blue dotted"/>
+				<line x1="20" y1="-5" x2="30" y2="-5" class="blue line"/>
+				<text class="small" text-anchor="middle" transform="translate(25,-7.5) rotate(0)">10</text>
+			<line x1="30" y1="50" x2="30" y2="-10" class="blue dotted"/>
+				<line x1="30" y1="-8" x2="43" y2="-8" class="blue line"/>
+				<text class="small" text-anchor="middle" transform="translate(36.5,-10) rotate(0)">13</text>
+			<line x1="43" y1="50" x2="43" y2="-10" class="blue dotted"/>
+				<line x1="43" y1="-5" x2="57" y2="-5" class="blue line"/>
+				<text class="small" text-anchor="middle" transform="translate(50,-7.5) rotate(0)">14</text>
+			<line x1="57" y1="50" x2="57" y2="-10" class="blue dotted"/>
+				<line x1="57" y1="-8" x2="70" y2="-8" class="blue line"/>
+				<text class="small" text-anchor="middle" transform="translate(63.5,-10) rotate(0)">13</text>
+			<line x1="70" y1="50" x2="70" y2="-10" class="blue dotted"/>
+				<line x1="70" y1="-5" x2="80" y2="-5" class="blue line"/>
+				<text class="small" text-anchor="middle" transform="translate(75,-7.5) rotate(0)">10</text>
+			<line x1="80" y1="50" x2="80" y2="-10" class="blue dotted"/>
+
+		</g>
+
+		<g id="h-20-37-50">
+			<line x1="100" y1="0" x2="140" y2="0" class="dotted blue"/>
+
+			<line x1="97" y1="3" x2="118" y2="3" class="dotted blue"/>
+
+			<line x1="50" y1="10" x2="108" y2="10" class="dotted blue"/>
+				<line x1="105" x2="105" y1="10" y2="20" class="blue line"/>
+				<text class="small" text-anchor="middle" transform="translate(110,17) rotate(0)">10</text>
+			
+				<line x1="105" y1="37" x2="105" y2="50" class="blue line"/>
+				<text class="small" text-anchor="middle" transform="translate(110,44) rotate(0)">13</text>
+			
+			<line x1="50" y1="20" x2="128" y2="20" class="dotted blue"/>
+				<line x1="115" y1="3" x2="115" y2="20" class="blue line"/>
+				<text class="small" text-anchor="middle" transform="translate(120,12) rotate(0)">17</text>
+
+				<line x1="125" y1="0" x2="125" y2="20" class="blue line"/>
+				<text class="small" text-anchor="middle" transform="translate(130,12) rotate(0)">20</text>
+
+
+			<line x1="37" y1="37" x2="113" y2="37" class="dotted blue"/>
+			<line x1="70" y1="50" x2="140" y2="50" class="dotted blue"/>
+				<line x1="135" x2="135" y1="0" y2="50" class="blue line"/>
+				<text class="small" text-anchor="middle" transform="translate(140,27.5) rotate(0)">50</text>
+
+				<line x1="105" y1="37" x2="105" y2="50" class="blue line"/>
+				<text class="small" text-anchor="middle" transform="translate(110,44) rotate(0)">13</text>
+
+				<line x1="120" y1="20" x2="120" y2="50" class="blue line"/>
+				<text class="small" text-anchor="middle" transform="translate(125,40) rotate(0)">30</text>
+
+			<line x1="30" y1="55" x2="110" y2="55" class="dotted blue"/>
+				<line x1="105" y1="55" x2="105" y2="65" class="blue line"/>
+				<text class="small" text-anchor="middle" transform="translate(110,62) rotate(0)">10</text>
+			<line x1="30" y1="65" x2="118" y2="65" class="dotted blue"/>
+				<line x1="115" y1="50" x2="115" y2="65" class="blue line"/>
+				<text class="small" text-anchor="middle" transform="translate(120,60) rotate(0)">15</text>
+
+				<line x1="110" y1="37" x2="110" y2="20" class="blue line"/>
+				<text class="small" text-anchor="middle" transform="translate(115,30) rotate(0)">17</text>
+		</g>
+
+
+		
+	</g>
+</svg>
