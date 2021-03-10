@@ -34,6 +34,18 @@ IMAGE URL CONVENTION
         - `/w.svg` -- white SVG
     - `/m` ...
 
+
+CUSTOMIZABLE  
+------------
+
+USE https://deoksuyi.com/dsyimo.svg
+- EX: `dsyimo.svg#size=100&color=white&bgcolor=gray&line=1`
+    - size
+    - color
+    - bgcolor
+    - lilne
+
+
 USAGE
 -----
 
