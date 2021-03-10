@@ -9,7 +9,8 @@
     var dsyim_image = document.getElementById("DEOKSUYI");
     var dsyim = document.getElementById("DSYIM");
 
-    var configs = window.location.hash.replace("?","").split("&");
+    // var configs = window.location.hash.replace("?","").split("&");
+    var configs = window.location.search.replace("?","").split("&");
     console.log("total hash item: "+configs.length);
     for (var i=0; i < configs.length; i++) {
       var item = configs[i].split("=");
